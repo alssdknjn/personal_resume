@@ -1,0 +1,150 @@
+body{
+    background-color:#F6E7FF;
+    font-family: 'Lora', serif;
+    color: rgb(223, 73, 163);
+    margin: 0;
+    padding: 35px;
+    border: 15px solid  rgb(223, 73, 163);
+}
+
+/*!!!!!!Bootstrap !!!!!!*/
+.bi-asterisk {
+    position: absolute;
+    right: 100px; 
+}
+
+.contenar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill,minmax(20px,1fr));
+    gap: 30px;
+}
+
+.myName{
+    font-size: 30px;
+    grid-column: 2/3;
+    grid-row: 2/3 ;
+    text-align: center;
+    border-bottom: 2px solid ;
+}
+
+.communicatiomn{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.communicatiomn:hover{
+    font-size: 20px;
+}
+
+.education{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.education:hover{
+    font-size: 20px;
+}
+
+.projects{
+    grid-column: 2/3;
+    grid-row: 5/6; 
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.projects:hover{
+    font-size: 20px;
+}
+
+
+.mygols{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.mygols:hover{
+    font-size: 20px;
+}
+
+.personalPicture{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid ;
+}
+
+.abutMe{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.abutMe:hover{
+    font-size: 20px;
+}
+
+.facts{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.facts:hover{
+    font-size: 20px;
+}
+
+.feedback{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+.feedback:hover{
+    font-size: 20px;
+}
+
+.interests{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    border-bottom: 2px solid ;
+    transition: font-size 0.5 ease;
+}
+
+.interests:hover{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(208, 162, 227);
+}
+
+i{
+    color: rgb(208, 162, 227);
+}
+
+@media (max-width:992px) {
+    .bi-asterisk{
+        width: 95px;
+        height: 95px;
+    }
+    .myName{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:768px){
+
+    .bi-asterisk{
+        width: 100px;
+        height: 100px;
+    }
+    .myName{
+        font-size: 17px;
+    }
+}
